@@ -1,26 +1,75 @@
 *{
     box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
+body{ background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+header{ height: 70px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    background-color: white;
 
-body{
-    background-color: lightgray;
+}
+.logo {
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.titolo {
+    display: inline;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    background-color: white;
-}
+
 .container{
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    background-color: #ffff;
+    margin: auto;
+    background-color: white;
+    height: 600px;
+    width: 700px;
+    border-radius: 5px;
 }
-.btn {
-    text-decoration: none;
-    border: 1px solid gray;
-    padding: 3px;
-    border-radius: 3px;
+
+.Pulsante1{
+    background-color:#368ba9;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid #ddd;
+}
+.Pulsante2{
+    background-color: white;
+    color:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid lightgray;
+}
+ul{
+    list-style: none;
+}
+.circles{
+         border: 1px solid green;
+         color: green;
+         border-radius: 50%;
+         width: 15px;
+         height: 15px;
+         display: inline-block;
+         text-align: center;
+         font-size:10px; 
+    
+
+}
+.label1
+{
+    background-color: #368ba9;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-size: small;
+    border: 1px solid #ddd;
 }
